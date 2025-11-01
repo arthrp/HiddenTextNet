@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>HiddenTextNet</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>arthrp</Authors>
+        <TargetFramework>net8.0</TargetFramework>
+        <Title>HiddenTextNet</Title>
+        <Description>.NET library to covert text into zero-width spaces</Description>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/arthrp/HiddenTextNet</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
 </Project>
